@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/promoboxx/go-metric-client/metrics"
+	"github.com/HqOapp/go-metric-client/metrics"
 
 	otext "github.com/opentracing/opentracing-go/ext"
 )
