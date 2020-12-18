@@ -13,7 +13,7 @@ Specifically the files are formated for use with [away-team/migrate](https://git
 
 * Task - A job that needs to be accomplished once.
 * Tasker - A function that can accomplish an array of tasks, returning the list of accomplished tasks
-* Session - A session to load balance tasks across.  Generally each instance of a service would have 1 Ruuner which would have 1 session.  If a Runner dies the session
+* Session - A session to load balance tasks across.  Generally each instance of a service would have 1 Runner which would have 1 session.  If a Runner dies the session
 will expire and the tasks will be redistributed to remaining sessions.
 * Runner - The main processor that will tick on the interval provided, keep the session alive, request work from the DB for this session, do the work using the Tasker and flag
 successfully completed work as complete.
