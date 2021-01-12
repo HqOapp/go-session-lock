@@ -3,7 +3,7 @@ package lock
 import (
 	"context"
 
-	"github.com/promoboxx/go-glitch/glitch"
+	"github.com/healthimation/go-glitch/glitch"
 )
 
 //go:generate mockgen -destination=./mocks/db-mock.go -package=lockmock github.com/promoboxx/go-session-lock/src/lock Database,Task,Scanner
